@@ -32,8 +32,3 @@ Vite proxies `/api/*` to Flask (see `vite.config.js`), so no CORS fuss in dev.
 | PATCH  | /api/tasks/<id>   | update any of title/priority/done    |
 | DELETE | /api/tasks/<id>   | delete                               |
 
-## Things to poke at while relearning
-- React: `useState`, `useEffect`, lifting state, controlled inputs, conditional rendering (`App.jsx`)
-- Flask: routes, `request.get_json()`, status codes, error handling (`app.py`)
-- MySQL: schema, parameterized queries (never f-string SQL!), `ENUM`, `TIMESTAMP` defaults
-- Stretch goals: due dates, user accounts + JWT, Flask-SQLAlchemy migration, pagination
